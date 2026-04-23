@@ -1,9 +1,18 @@
-# 2026_NI_Manuscript
+# 2026 NI Manuscript
 Materials and code for analysis in 2026 Manuscript. Spatial analysis of PI16+ Fibroblasts, PRG4+ Fibroblasts, and VWF+ endothelium across whole, human, developmental manual digits with accompanying tissue annotations for compartment analysis.
 
 <img src="docs/attachments/fig5f.png" alt="Davidson, Simeone, and Jansen et. al. 2026, Fig.5f" width="600"/>
 
-Data Repository: RELEASED 24 Apr 2026
+```bibtex
+@article{TBA,
+  title={The embryonic origins of site-specific arthritis},
+  author={Sarah Davidson*, Davide Simone*, Kathrin Jansen*, Max Cowan, Caio Machado, Ian Reekie, Ananya Bhalla, Rowie Borst, Cesar Prada Medina, Joshua Bull, Zhi Yi Wong, Sarah Hill, Micon Garvilles, Sam Pledger, Patricia Reis Nisa, Nora Schwingen, Dylan Windell, Moustafa Attar, Catherine Disney, Andrew J Bodey, Alissa Parmenter, Helen Byrne, Sharif Ahmed, Shashidhara Marathe, Peter D Lee, Chris Mahony, Adam P Croft, Stephen Sansom#, Mark C Coles# Christopher D Buckley#},
+  year={2026}
+}
+```
+\* These authors contributed equally \
+\# These authors jointly supervised this work
+
 
 ## Environment Setup
 ### Requirements
@@ -44,4 +53,41 @@ python scripts/prox_dist_enrichment_analysis.py --data-dir ./data/processed/prox
 ```
 
 ## References and acknowledgements
-Please refer to the original manuscript for full acknowledgements and references.
+Please refer to the original manuscript for full acknowledgements and references. \
+Particularly grateful to the developers and maintainers of [MuSpAn](https://www.muspan.co.uk/resources), [SpatialData](https://github.com/scverse/spatialdata), and [CellPose](https://github.com/mouseland/cellpose).
+```bibtex
+@article{bull2024muspan,
+  title={MuSpAn: a toolbox for multiscale spatial analysis}, 
+  author={Bull, Joshua A and Moore, Joshua W and Mulholland, Eoghan J and Leedham, Simon J and Byrne, Helen M},
+  journal={bioRxiv},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
+```bibtex
+@article{marconato2025spatialdata,
+  title={SpatialData: an open and universal data framework for spatial omics},
+  author={Marconato, Luca and Palla, Giovanni and Yamauchi, Kevin A and Virshup, Isaac and Heidari, Elyas and Treis, Tim and Vierdag, Wouter-Michiel and Toth, Marcella and Stockhaus, Sonja and Shrestha, Rahul B and others},
+  journal={Nature methods},
+  volume={22},
+  number={1},
+  pages={58--62},
+  year={2025},
+  publisher={Nature Publishing Group US New York}
+}
+```
+```bibtex
+@article{stringer2021cellpose,
+  title={Cellpose: a generalist algorithm for cellular segmentation},
+  author={Stringer, Carsen and Wang, Tim and Michaelos, Michalis and Pachitariu, Marius},
+  journal={Nature methods},
+  volume={18},
+  number={1},
+  pages={100--106},
+  year={2021},
+  publisher={Nature Publishing Group US New York}
+}
+```
+
+## Data Availability
+Data Repository: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD3270
