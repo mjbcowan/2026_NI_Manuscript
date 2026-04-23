@@ -1,0 +1,23 @@
+PI16_POS:
+  positive:
+    - PI16
+  negative:
+    - PRG4
+    - VWF
+  description: PI16 Positive Cell (progenitor fibroblast)
+
+VWF_POS:
+  positive:
+    - VWF
+  negative:
+    - PI16
+    - PRG4
+  description: VWF Positive Cell (endothelium)
+
+PRG4_POS:
+  positive:
+    - PRG4
+  negative:
+    - PI16
+    - VWF
+  description: PRG4 Positive Cell (lining layer)
