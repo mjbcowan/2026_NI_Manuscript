@@ -1,5 +1,9 @@
 # 2026_NI_Manuscript
-Selected materials and code for analysis in 2026 ManuscriptS.
+Materials and code for analysis in 2026 Manuscript. Spatial analysis of PI16+ Fibroblasts, PRG4+ Fibroblasts, and VWF+ endothelium across whole, human, developmental manual digits with accompanying tissue annotations for compartment analysis.
+
+<img src="docs/attachments/fig5f.png" alt="Davidson, Simeone, and Jansen et. al. 2026, Fig.5f" width="600"/>
+
+Data Repository: RELEASED 24 Apr 2026
 
 ## Environment Setup
 ### Requirements
@@ -38,3 +42,6 @@ python scripts/prox_dist_enrichment_analysis.py --data-dir /path/to/data/process
 # Optional: specify a separate output directory
 python scripts/prox_dist_enrichment_analysis.py --data-dir ./data/processed/prox_dist --output-dir ./results/enrichment
 ```
+
+## References and acknowledgements
+Please refer to the original manuscript for full acknowledgements and references.
