@@ -3,8 +3,6 @@ Materials and code for analysis in 2026 Manuscript. Spatial analysis of PI16+ Fi
 
 <img src="docs/attachments/fig5f.png" alt="Davidson, Simeone, and Jansen et. al. 2026, Fig.5f" width="600"/>
 
-Data Repository: RELEASED 24 Apr 2026
-
 ## Environment Setup
 ### Requirements
 - CUDA 12.1 compatible GPU (≥8 GB VRAM recommended)
@@ -79,3 +77,6 @@ Particularly grateful to the developers and maintainers of [MuSpAn](https://www.
   publisher={Nature Publishing Group US New York}
 }
 ```
+
+## Data Availability
+Data Repository: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD3270
