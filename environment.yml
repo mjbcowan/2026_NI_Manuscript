@@ -1,0 +1,57 @@
+name: ni_manuscript
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10.12
+  - pip
+
+  # GPU / CUDA — must come from nvidia/pytorch channels
+  - pytorch::pytorch=2.5.1=py3.10_cuda12.1_cudnn9.1.0_0
+  - pytorch::torchvision=0.20.1=py310_cu121
+  - pytorch::torchaudio=2.5.1=py310_cu121
+  - nvidia::cuda-toolkit=12.1
+
+  # Core scientific stack (conda-forge builds link against system BLAS/LAPACK)
+  - conda-forge::numpy=2.2.6
+  - conda-forge::scipy=1.15.3
+  - conda-forge::pandas=2.3.3
+  - conda-forge::scikit-learn=1.7.2
+  - conda-forge::scikit-image=0.25.2
+  - conda-forge::statsmodels=0.14.5
+  - conda-forge::matplotlib=3.10.7
+  - conda-forge::seaborn=0.13.2
+  - conda-forge::h5py=3.15.1
+  - conda-forge::zarr=2.18.3
+  - conda-forge::tifffile=2025.5.10
+
+  # Pip-only packages (CUDA wheels, spatial ecosystem, MuSpAn)
+  - pip:
+    # Spatial / single-cell ecosystem
+    - anndata==0.11.4
+    - scanpy==1.11.5
+    - spatialdata==0.5.0
+    - spatialdata-io==0.3.0
+    - spatialdata-plot==0.2.12
+    - squidpy==1.6.5
+    - umap-learn==0.5.9.post2
+
+    # Segmentation
+    - cellpose==4.0.7
+
+    # Visualization
+    - napari-plugin-manager==0.1.9
+    - matplotlib-scalebar==0.9.0
+
+    # Stats / ML
+    - scikit-misc==0.5.2
+
+    # MuSpAn — See https://docs.muspan.co.uk for documentation
+    - muspan @ https://docs.muspan.co.uk/code/latest.zip#sha256=091a83c2a47ae4e3dea990b6e0609d8f275125061a09bd04964d33ef87009cc4
+
+    # Testing
+    - pytest>=8.0
+    - pytest-cov>=5.0

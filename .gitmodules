@@ -1,0 +1,3 @@
+[submodule "notebooks"]
+	path = notebooks
+	url = https://github.com/mjbcowan/2026_NI_manuscript_notebooks
