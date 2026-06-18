@@ -4,10 +4,13 @@ Materials and code for analysis in 2026 Manuscript. Spatial analysis of PI16+ Fi
 <img src="docs/attachments/fig5f.png" alt="Davidson, Simeone, and Jansen et. al. 2026, Fig.5f" width="600"/>
 
 ```bibtex
-@article{TBA,
+@article{davidson2026embryonic,
   title={The embryonic origins of site-specific arthritis},
-  author={Sarah Davidson*, Davide Simone*, Kathrin Jansen*, Max Cowan, Caio Machado, Ian Reekie, Ananya Bhalla, Rowie Borst, Cesar Prada Medina, Joshua Bull, Zhi Yi Wong, Sarah Hill, Micon Garvilles, Sam Pledger, Patricia Reis Nisa, Nora Schwingen, Dylan Windell, Moustafa Attar, Catherine Disney, Andrew J Bodey, Alissa Parmenter, Helen Byrne, Sharif Ahmed, Shashidhara Marathe, Peter D Lee, Chris Mahony, Adam P Croft, Stephen Sansom#, Mark C Coles# Christopher D Buckley#},
-  year={2026}
+  author={Davidson, Sarah and Simone, Davide and Jansen, Kathrin and Cowan, Max and Machado, Caio and Reekie, Ian and Bhalla, Ananya and Borst, Rowie and Prada Medina, Cesar and Bull, Joshua and others},
+  journal={Nature Immunology},
+  pages={1--14},
+  year={2026},
+  publisher={Nature Publishing Group}
 }
 ```
 \* These authors contributed equally \
