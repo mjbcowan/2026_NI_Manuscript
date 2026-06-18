@@ -13,9 +13,6 @@ Materials and code for analysis in 2026 Manuscript. Spatial analysis of PI16+ Fi
   publisher={Nature Publishing Group}
 }
 ```
-\* These authors contributed equally \
-\# These authors jointly supervised this work
-> **Please note, article in press**
 
 ## Environment Setup
 ### Requirements
